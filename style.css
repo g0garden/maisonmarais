@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tbody{
+    background-color: black;
+    color: white;
+}
+
+td{
+    margin: 10px 0;
+    padding: 15px 15px 10px 10px;
+    text-align: center;
+}
+a{
+    text-decoration : none;
+    color: white;
+}
+img{
+    height: 30%;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin:15px;
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed;
+    letter-spacing: 1rem;
+}
+
+.company{
+    margin: 15px;
+    font-size: larger;
+    text-align: center;
+}
+
+.title{
+    letter-spacing: 0.5rem;
+}
+
+.description{
+    display:block;
+    margin: auto;
+    width: 70%;
+}  
+
+.name{
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.content{
+    padding: 0 30px;
+    margin-bottom: 20px;
+    font-size: small;
+    letter-spacing: 0;
+    text-align: center;
+    
+}
+
