@@ -37,6 +37,8 @@ footer{
 }
 
 .company{
+    display: flex;
+    justify-content: space-evenly;
     margin: 15px;
     font-size: larger;
     text-align: center;

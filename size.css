@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+
+
+table{
+    width: 380px;
+    height: 390px;
+    border-spacing: 0;
+    font-size: 15px;
+    margin: auto;
+    
+    }
+
+th, td{
+    font-weight: bold;
+    border-bottom: 1px solid darkgray;
+}
+
+td{
+    padding: 0 15px;
+    border-collapse: collapse;
+}
+
+tr{
+    height: 55px;
+}
+
+td>span {
+    color:#c7c7c7;
+    font-size: 12px;
+}
+
+button{
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px;
+    background-color: #c7c7c7;
+    border: none;
+    cursor: pointer;
+}
+
+.content{
+    margin: 10px;
+    width: 850px;
+    border:1px solid black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin: 20px 0 10px 70px;
+}
+
+.close{
+    
+    text-decoration: none;
+
+}
+
+
+.sleeve{
+    display: flex;
+    flex-direction: column;
+    color:#c7c7c7;
+    font-size: 12px;
+}
+
+.userGuide{
+    width: 780px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin:10px;
+    
+}
+
+.sizeTable{
+    margin-left: 50px;
+}
+
+.standardSize{
+    font-weight: bold;
+}
+
+.sizeImage{
+    width:50%;
+    text-align: center;
+}
+
+img{
+    padding: 5px;
+    
+}
+
+.userExp{
+    padding: 0 35px 35px 0;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: right;
+}
